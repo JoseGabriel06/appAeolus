@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login - AEOLUS</title>
+</head>
+<body>
+    <div class="fondo">
+    <div class="contenedor_login">
+        <div class="contenedor_logo">
+          <img src="https://i.imgur.com/apvQa7t.png" alt="Logotipo AEOLUS" class="logo">
+        </div>
+        <div class="login">
+            <div class="contenedor_campo">
+                <input type="text" class="campo" id="usuario" placeholder="Usuario">
+                <div class="icono">
+                <i class='bx bxs-user'></i>
+                </div>
+            </div>
+            <div class="contenedor_campo">
+                <input type="text" class="campo" id="clave" placeholder="Contraseña">
+                <div class="icono">
+                 <i class='bx bxs-key'></i>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn_ingresar">INGRESAR</button>
+    </div>
+    </div>
+</body>
+</html>
